@@ -76,9 +76,11 @@
 .two-columns__brief {
   width: 175px;
   margin-top: 0;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
+  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -87,14 +89,14 @@
   width: 80%;
   min-width: 784px;
 }
-.two-columns__paragrath {
+.two-columns__paragraph {
   margin-top: 0;
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
   margin-bottom: 30px;
 }
-.two-columns__span-accent_span {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -149,13 +151,6 @@
   font-size: 18px;
   font-style: normal;
 }
-.table__text-plus {
-  margin-top: 20px;
-  margin-bottom: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-}
 .feynman {
   min-height: 890px;
   position: relative;
@@ -192,8 +187,9 @@
   font-style: normal;
   text-decoration: none;
   color: #2f80ed;
+  z-index: 2;
 }
-.feynaman__img {
+.feynman__img {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -237,7 +233,6 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto 90px auto;
-  justify-content: flex-end;
   z-index: 2;
 }
 .table__cell_theme_dark {
@@ -272,14 +267,15 @@
 
 .footer {
   min-height: 350px;
+  height: 100%;
   background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
   display: flex;
-  justify-content: center;
 }
 .footer__columns {
-  margin-top: 60px;
-  margin-bottom: 40px;
   width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -295,7 +291,7 @@
   height: 32px;
 }
 .footer__author {
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -304,13 +300,15 @@
 .footer__column_content_info {
   color: white;
 }
-.footer__column_heading {
-  margin: 0 0 20px 0;
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-style: 600;
 }
 .footer__column-links {
+  margin: 0;
   list-style-type: none;
   padding-left: 0;
   padding-bottom: 16px;
@@ -328,7 +326,7 @@
   font-size: 18px;
   font-style: normal;
 }
-.footer__social_icon {
+.footer__social-icon {
   margin: 0;
   height: 16px;
   width: 16px;
