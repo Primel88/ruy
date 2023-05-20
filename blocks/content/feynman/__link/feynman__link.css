@@ -1,16 +1,17 @@
 @import url(../__link/feynman__link.css);
+
 .feynman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    line-height: 51px;
-    font-size: 36px;
-    font-style: normal;
-    text-decoration: none;
-    color: #2f80ed;
-    z-index: 2;
-  }
-  .feynman__link:hover {
-    opacity: 0.5;
-    transition: opacity 0.3s ease-in-out;
-  }
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  z-index: 2;
+}
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}

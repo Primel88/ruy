@@ -1,10 +1,11 @@
 @import url(../__link/header__link.css); 
+
 .header__link {
-    color: #2f80ed;
-    text-decoration: none;
-    z-index: 2;
-  }
-  .header__link:hover {
-    opacity: 0.5;
-    transition: opacity 0.3s ease-in-out;
-  }
+  color: #2f80ed;
+  text-decoration: none;
+  z-index: 2;
+}
+.header__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}

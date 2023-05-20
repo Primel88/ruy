@@ -1,10 +1,11 @@
 @import url(../kaufman/kaufman.css);
+
 .kaufman {
-    background-color: #1f1f1f;
-    color: white;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-  }
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
