@@ -1,0 +1,10 @@
+@import url(../footer/footer.css);
+.footer {
+    min-height: 350px;
+    height: 100%;
+    background-color: #1f1f1f;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    box-sizing: border-box;
+  }

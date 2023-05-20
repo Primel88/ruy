@@ -1,0 +1,10 @@
+@import url(../__subtitle/feynman__subtitle.css);
+.feynman__subtitle {
+    margin: 0 auto;
+    padding-top: 70px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 36px;
+    font-style: normal;
+    z-index: 2;
+  }
