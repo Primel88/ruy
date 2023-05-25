@@ -1,11 +1,11 @@
 
 .video{
-  margin: 0px auto;
+  margin: 0 auto;
   position: relative;
   width: 1050px;
-  min-height: 316px;
   z-index: 1;
   bottom: -50px;
+  padding-top: 50px;
 }
 .video::after{
   position: absolute;

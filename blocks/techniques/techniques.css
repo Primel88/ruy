@@ -1,5 +1,7 @@
 
 .techniques{
-  margin: 100px auto 100px auto;
+  margin: 100px auto 0px auto;
+  margin-bottom: 0px;
+  padding: 0;
   width:80%;
 }
