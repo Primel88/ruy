@@ -1,0 +1,9 @@
+.cover__text{
+  position: relative;
+  color: white;
+  z-index: 5;
+}
+
+.cover__text::before{
+  opacity: 1;
+}

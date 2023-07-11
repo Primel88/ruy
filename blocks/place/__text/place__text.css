@@ -1,0 +1,19 @@
+.place__text{
+  color: #FFF;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 1023px) {
+ .place__text{
+  color: #FFF;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+ }
+}
