@@ -1,0 +1,13 @@
+.intro__list-text {
+  margin: 0;
+  padding: 0;
+<<<<<<< HEAD
+  font-family: 'Inter';
+=======
+  font-family: 'Inter', Arial, sans-serif;
+>>>>>>> 38b13c6 (new)
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
