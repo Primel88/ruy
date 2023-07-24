@@ -1,0 +1,6 @@
+.cover__text {
+  position: relative;
+  color: white;
+  z-index: 13;
+  text-align: center;
+}
