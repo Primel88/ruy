@@ -1,0 +1,22 @@
+.footer__link {
+  padding: 0;
+  margin: 0;
+  padding-right: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.footer__link:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link {
+      padding-right: 18px;
+  }
+}

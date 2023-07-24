@@ -1,0 +1,14 @@
+.footer__list-item {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__list-item {
+    padding-bottom: 32px;
+  }
+  .footer__list-item:last-child{
+    padding-bottom: 0;
+  }
+}
